@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+} 
+/* selectioner tous les élément */
+body
+{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(ps5.jpg);
+    background-position: center;
+    background-size: cover;
+
+
+}
+section
+{
+    padding: 30px;
+    width: 420px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
+}
+section h1
+{
+    font-size: 30px;
+    text-align: center;
+    color: aliceblue;
+    margin-bottom: 20px;
+}
+.inputbox{
+    width: 100%;
+    position: relative;
+    margin-bottom: 20px;
+
+   
+}
+.inputbox input{
+    width: 100%;
+    padding: 15px;
+    border-radius: 25px;
+    border-bottom: 25px;
+    outline: none;
+    background: transparent;
+    border: 2px solid rgb(255, 255, 255,0.2);
+    color: white;
+    padding-right: 40px;
+}
+.inputbox input::placeholder{
+    color: azure;
+
+}
+.inputbox i{
+    position: absolute;
+    transform: translateY(-50%);
+    right: 20%;
+    top: 50%;
+    color: white;
+}
+.remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 25px;
+    color: white;
+}
+.remember-forgot a , .registerlink a{
+    color: white;
+    transition: 0.5s;
+    font-weight: bold;
+
+}
+.remember-forgot a:hover,.registerlink a:hover{
+    text-decoration: none;
+}
+.login-btn{
+    width:100%;
+    padding: 15px;
+    border-radius: 25px;
+    outline: none;
+    border: 0;
+    font-weight: bold;
+    cursor:pointer;
+    border: 2px solid transparent;
+    transition: 0.5;
+}
+.login-btn:hover{
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    color: antiquewhite;
+}
+.registerlink{
+    text-align: center;
+    margin-top: 25px;
+    color: white;
+    font-size: 14px;
+}
