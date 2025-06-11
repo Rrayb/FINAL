@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+body{
+    background:url(lune.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: ;
+    width: 100%;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    color: aliceblue;
+    font-size: 50px;
+    font-style: inherit;
+    animation-name:couleur;
+    animation-duration: 7s;
+    animation-timing-function: ease;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  
+}
+@keyframes couleur{
+    form{color: aliceblue;}
+    to{color: darkolivegreen;}
+}
+footer{
+    width: 97%;
+    background-color: gray;
+    display: flex;
+    margin-bottom: -100px;
+    margin-top: 740px;
+    padding: 20px;
+    justify-content: center;
+    justify-content: space-between;
+}
+p{
+    padding-left: 500px;
+    
+}
